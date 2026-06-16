@@ -1,0 +1,243 @@
+/* ===== A4 PAGE LOCK ===== */
+.hallticket-container {
+  width: 210mm;
+  height: 297mm;              /* A4 portrait */
+  margin: auto;
+  padding: 10mm;
+  box-sizing: border-box;
+  border: 2px solid #b00000;
+  font-family: "Times New Roman", serif;
+  background: white;
+  position: relative;
+}
+
+/* ===== HEADER ===== */
+.ht-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #b00000;
+  padding-bottom: 6px;
+}
+
+.ht-header img {
+  width: 100px;
+}
+
+.ht-header-text {
+  flex: 1;
+  text-align: center;
+}
+
+.ht-header-text h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.ht-header-text h4 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+.ht-header-text h3 {
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+/* ===== MAIN CONTENT TABLE (FIXED COLUMN WIDTHS) ===== */
+.ht-main-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6px;
+  table-layout: fixed;   /* 🔑 IMPORTANT */
+}
+
+/* Left label column */
+.ht-main-table td:first-child {
+  width: 24%;            /* 👈 reduce as needed (25–30% ideal) */
+  font-weight: bold;
+  white-space: nowrap;   /* prevents extra expansion */
+}
+
+/* Middle value column */
+.ht-main-table td:nth-child(2) {
+  width: 47%;
+}
+
+/* Photo column */
+.ht-main-table td:nth-child(3) {
+  width: 16%;
+  text-align: center;
+}
+
+
+.ht-main-table td {
+  border: 1px solid black;
+  padding: 4px 6px;
+  font-size: 12.5px;
+  vertical-align: center;
+}
+
+/* ===== PHOTO CELL FIX ===== */
+.photo-box {
+  width: 120px;
+  height: 150px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== RED TEXT ===== */
+.red-text {
+  color: black;
+}
+
+/* ===== SUBJECT SECTION ===== */
+.subject-box {
+  font-size: 12.5px;
+  line-height: 2.3;
+  
+}
+
+/* ===== INSTRUCTIONS ===== */
+.instruction-box {
+  border: 1px solid black;
+  font-size: 13px;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+.instruction-title {
+  text-align: center;
+  background: #f2f2f2;
+  color: black;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.instruction-box ol {
+  margin: 4px 0 4px 18px;
+}
+
+/* ===== FOOTER (PINNED TO BOTTOM) ===== */
+.footer-row {
+  width: 50%;
+  height: 100px;
+  line-height: 1.7;
+}
+
+.seal-oval {
+  width: 140px;
+  height: 75px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+ 
+}
+/* ===== FOOTER FIX (EQUAL COLUMNS) ===== */
+
+/* ===== FOOTER LAYOUT FIX (REAL MSBTE STYLE) ===== */
+.footer-row td {
+  border: 1px solid black;
+  height: 95px;
+  padding: 0;
+}
+
+/* inner 2-column layout */
+.footer-inner {
+  display: flex;
+  height: 100%;
+}
+
+/* left half */
+.footer-seal {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* right half */
+.footer-attested {
+  width: 50%;
+  border-left: 1px solid black;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+}
+
+
+.footer-left {
+  
+  text-align: center;
+}
+
+.footer-right {
+  
+  text-align: left;
+  padding-left: 15px;
+}
+
+
+/* ===== PRINT ===== */
+@media print {
+
+    @page {
+    margin: 10mm;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /* hide buttons */
+  button,
+  .print-btn,
+  .download-btn {
+    display: none !important;
+  }
+
+  /* hide links */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .hallticket-container,
+  .hallticket-container * {
+    visibility: visible;
+  }
+
+  .hallticket-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .print-btn {
+    
+    display: none;
+  }
+}
+
+

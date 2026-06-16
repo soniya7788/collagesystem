@@ -1,0 +1,175 @@
+.print-page {
+  background: #e9e9e9;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+}
+
+/* HEADER */
+.print-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.college-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.header-text {
+  text-align: center;
+  flex: 1;
+}
+
+/* CANDIDATE BOX */
+.candidate-box {
+  display: flex;
+  border: 2px solid black;
+  background: #f2f2f2;
+  margin-top: 10px;
+}
+
+.candidate-box table {
+  width: 75%;
+  border-collapse: collapse;
+}
+
+.candidate-box td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+/* PHOTO */
+.photo-box {
+  width: 120px;
+  height: 150px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* SUBJECT */
+.section-title {
+  margin-top: 12px;
+  padding: 5px;
+  background: #dcdcdc;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  table-layout: fixed; 
+    /* 🔑 MOST IMPORTANT */
+}
+
+.subject-table th,
+.subject-table td {
+   text-align: center;
+  border: 1px solid black;
+  padding: 6px;
+}
+
+.subject-table th:nth-child(2),
+.subject-table td:nth-child(2) {
+  text-align: left;
+  width: 45%;
+}
+
+/* GREEN TICK */
+.tick {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* RED INSTRUCTIONS */
+.instruction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.instruction-table td {
+  border: 1px solid black;
+  padding: 6px;
+  font-size: 14px;   /* bigger */
+  color: red;
+}
+
+.instruction-title {
+  font-weight: bold;
+  background: #dcdcdc;
+  color: black;
+}
+
+
+/* FOOTER */
+.print-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-line {
+  margin-top: 35px;
+  border-top: 1px solid black;
+  width: 180px;
+}
+
+/* PRINT */
+@media print {
+
+    @page {
+    margin: 10mm;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /* hide buttons */
+  button,
+  .print-btn,
+  .download-btn {
+    display: none !important;
+  }
+
+  /* hide links */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  body * {
+    visibility: hidden;
+  }
+  .print-page,
+  .print-page * {
+    visibility: visible;
+  }
+  .print-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .print-btn {
+    display: none;
+  }
+}
