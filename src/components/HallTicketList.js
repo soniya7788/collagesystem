@@ -13,7 +13,7 @@ function HallTicketList() {
     if (!student) return;
 
     axios
-      .get(`http://localhost:5000/api/exam/my-exam-forms/${student._id}`)
+      .get(`https://collagesystem-backend.onrender.com/api/exam/my-exam-forms/${student._id}`)
       .then(res => {
         // ✅ ONLY APPROVED FORMS CAN HAVE HALL TICKET
         const approvedForms = res.data.filter(f => f.formApproved);

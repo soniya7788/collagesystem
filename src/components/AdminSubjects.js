@@ -71,14 +71,14 @@ function AdminSubjects() {
   try {
 
     const res = await axios.get(
-      `http://localhost:5000/api/exam/subjects?department=${department}&semester=${semester}`
+      `https://collagesystem-backend.onrender.com/api/exam/subjects?department=${department}&semester=${semester}`
     );
 
     const subjectData = res.data;
 
     // merge with short codes
 const shortRes = await axios.get(
-  `http://localhost:5000/api/exam/subject-shortcodes?department=${department}&semester=${semester}`
+  `https://collagesystem-backend.onrender.com/api/exam/subject-shortcodes?department=${department}&semester=${semester}`
 );
 
 const shortData = shortRes.data || [];
@@ -142,7 +142,7 @@ const merged = subjectData.map((sub, index) => {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/exam/admin/add-subjects",
+        "https://collagesystem-backend.onrender.com/api/exam/admin/add-subjects",
         {
           department,
           semester,

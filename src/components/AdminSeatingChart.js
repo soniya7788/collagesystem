@@ -19,7 +19,7 @@ const [selectedRows, setSelectedRows] = useState([]);
 
 const fetchData = () => {
   axios.get(
-    "http://localhost:5000/api/exam/admin/seating-chart-data",
+    "https://collagesystem-backend.onrender.com/api/exam/admin/seating-chart-data",
     { params: filters }
   ).then(res => {
     setRows(res.data);
@@ -56,7 +56,7 @@ const deleteRows = async () => {
   try {
 
     await axios.delete(
-      "http://localhost:5000/api/exam/admin/delete-forms",
+      "https://collagesystem-backend.onrender.com/api/exam/admin/delete-forms",
       {
         data: {
           ids: selectedRows
@@ -78,7 +78,7 @@ const deleteRows = async () => {
 
 useEffect(() => {
   axios
-    .get("http://localhost:5000/api/exam/admin/seating-chart-data")
+    .get("https://collagesystem-backend.onrender.com/api/exam/admin/seating-chart-data")
     .then(res => setRows(res.data));
 }, []);
 

@@ -38,7 +38,7 @@ const deleteSelected = async () => {
   if (!window.confirm("Delete selected forms?")) return;
 
   await axios.delete(
-    "http://localhost:5000/api/exam/admin/delete-forms",
+    "https://collagesystem-backend.onrender.com/api/exam/admin/delete-forms",
     { data: { ids: selectedForms } }
   );
 
@@ -50,17 +50,17 @@ const deleteSelected = async () => {
 
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/exam/admin/forms")
+    axios.get("https://collagesystem-backend.onrender.com/api/exam/admin/forms")
       .then(res => setForms(res.data));
   }, []);
 
   const markPaymentDone = async (id) => {
-    await axios.put(`http://localhost:5000/api/exam/admin/payment/${id}`);
+    await axios.put(`https://collagesystem-backend.onrender.com/api/exam/admin/payment/${id}`);
     window.location.reload();
   };
 
   const approveForm = async (id) => {
-    await axios.put(`http://localhost:5000/api/exam/admin/approve/${id}`);
+    await axios.put(`https://collagesystem-backend.onrender.com/api/exam/admin/approve/${id}`);
     window.location.reload();
   };
 
@@ -202,7 +202,7 @@ const deleteSelected = async () => {
   <button
     onClick={async () => {
       await axios.put(
-        `http://localhost:5000/api/exam/admin/allow-edit/${form._id}`
+        `https://collagesystem-backend.onrender.com/api/exam/admin/allow-edit/${form._id}`
       );
       window.location.reload();
     }}

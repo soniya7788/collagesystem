@@ -13,7 +13,7 @@ const examYear = params.get("examYear") || "";
 
 useEffect(() => {
   axios.get(
-    "http://localhost:5000/api/exam/admin/seating-chart-data",
+    "https://collagesystem-backend.onrender.com/api/exam/admin/seating-chart-data",
     { params: Object.fromEntries(params) }
   ).then(res => setRows(res.data));
 }, [params]);

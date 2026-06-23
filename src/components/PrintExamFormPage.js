@@ -9,7 +9,7 @@ function PrintExamFormPage() {
   const [form, setForm] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/exam/exam-form/${id}`)
+    axios.get(`https://collagesystem-backend.onrender.com/api/exam/exam-form/${id}`)
       .then(res => setForm(res.data));
   }, [id]);
 

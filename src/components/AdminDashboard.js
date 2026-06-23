@@ -20,7 +20,7 @@ const [approvingId, setApprovingId] = useState(null);
     }
 
     axios
-      .get("http://localhost:5000/api/admin/students")
+      .get("https://collagesystem-backend.onrender.com/api/admin/students")
       .then((res) => setStudents(res.data));
   }, [navigate]);
 
@@ -31,7 +31,7 @@ const approveStudent = async (id) => {
   try {
 
     const res = await axios.put(
-      `http://localhost:5000/api/admin/approve/${id}`
+      `https://collagesystem-backend.onrender.com/api/admin/approve/${id}`
     );
 
     alert("Student approved.\nPassword: " + res.data.password);
@@ -166,7 +166,7 @@ const approveStudent = async (id) => {
             <img
               src={
                 selected.photo
-                  ? `http://localhost:5000/uploads/${selected.photo}`
+                  ? `https://collagesystem-backend.onrender.com/uploads/${selected.photo}`
                   : "https://via.placeholder.com/120"
               }
               alt="Student"

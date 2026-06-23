@@ -31,7 +31,7 @@ const getPassword = async () => {
   try {
 
     const res = await axios.post(
-      "http://localhost:5000/api/auth/student-forgot",
+      "https://collagesystem-backend.onrender.com/api/auth/student-forgot",
       { prn, email }
     );
 
@@ -64,8 +64,8 @@ const getPassword = async () => {
     try {
       const url =
         role === "admin"
-          ? "http://localhost:5000/api/auth/admin-login"
-          : "http://localhost:5000/api/auth/student-login";
+          ? "https://collagesystem-backend.onrender.com/api/auth/admin-login"
+          : "https://collagesystem-backend.onrender.com/api/auth/student-login";
 
       const payload =
         role === "admin"
@@ -150,7 +150,7 @@ const getPassword = async () => {
   className="login-wrapper"
   style={{
     backgroundImage:
-      "linear-gradient(rgba(255,255,255,0.82), rgba(255, 255, 255, 0.67)), url('https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-6/490023237_9547345245347710_6301448548927139510_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=jem2b9xZz3kQ7kNvwFpYvgU&_nc_oc=AdpyylKoG1iV-_UJ94X3TbetnXeIfgpNbvrp4pNynqxxzct2GV37nNU-XM73QfoeR1jXfMm55T1tD7IYlDbhHWu-&_nc_zt=23&_nc_ht=scontent.fnag6-3.fna&_nc_gid=rMD29Cp_I4YLHJBahlx_sA&_nc_ss=78289&oh=00_Af7REVek5ob9e4ycqaGny40WnIaftKyUc45JKqfpG8GS5Q&oe=6A1B1903')",
+      "linear-gradient(rgba(255,255,255,0.82), rgba(255, 255, 255, 0.67)), url('https://dfhe5ze0n4pxu.cloudfront.net/College/Background-Images/Background-Image-1772442900658.jpg')",
 
     backgroundSize: "cover",
 
@@ -295,7 +295,7 @@ const getPassword = async () => {
       onClick={async () => {
         try {
           const res = await axios.post(
-            "http://localhost:5000/api/auth/change-password",
+            "https://collagesystem-backend.onrender.com/api/auth/change-password",
             {
               prn,
               oldPassword: password,

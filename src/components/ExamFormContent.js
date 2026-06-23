@@ -63,7 +63,7 @@ const examTypeLabel =
         </table>
 
         <div className="photo-box">
-          <img src={`http://localhost:5000/uploads/${student.photo}`} alt="student" />
+          <img src={`https://collagesystem-backend.onrender.com/uploads/${student.photo}`} alt="student" />
         </div>
       </div>
 

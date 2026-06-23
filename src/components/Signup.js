@@ -21,7 +21,7 @@ function Signup() {
   /* ================= FETCH DEPARTMENTS ================= */
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/exam/departments")
+      .get("https://collagesystem-backend.onrender.com/api/exam/departments")
       .then(res => setDepartments(res.data))
       .catch(err => console.error(err));
   }, []);
@@ -36,7 +36,7 @@ function Signup() {
     });
 
     await axios.post(
-      "http://localhost:5000/api/students/signup",
+      "https://collagesystem-backend.onrender.com/api/students/signup",
       formData,
       { headers: { "Content-Type": "multipart/form-data" } }
     );

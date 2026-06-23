@@ -49,7 +49,7 @@ useEffect(() => {
 
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/exam/subjects?department=${department}&semester=${semester}`
+      `https://collagesystem-backend.onrender.com/api/exam/subjects?department=${department}&semester=${semester}`
     );
 
     let subjectsList = res.data;
@@ -150,7 +150,7 @@ const prepared = subjectsList.map(sub => ({
   console.log("Submitting subjects:", subjects); // 🔴 ADD THIS
 
   try {
-    await axios.post("http://localhost:5000/api/exam/submit", {
+    await axios.post("https://collagesystem-backend.onrender.com/api/exam/submit", {
       studentId: student._id,
       prn: student.prn,
       department,
@@ -412,7 +412,7 @@ const prepared = subjectsList.map(sub => ({
     className="btn-submit"
     onClick={async () => {
       await axios.put(
-  `http://localhost:5000/api/exam/resubmit/${id}`,
+  `https://collagesystem-backend.onrender.com/api/exam/resubmit/${id}`,
   {
     department,
     semester,

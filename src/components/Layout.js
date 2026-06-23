@@ -57,7 +57,7 @@ function Layout({ children, hideSidebar = false }) {
               {open && (
                 <div className="profile-dropdown">
                   <img
-                    src={`http://localhost:5000/uploads/${student?.photo}`}
+                    src={`https://collagesystem-backend.onrender.com/uploads/${student?.photo}`}
                     alt="student"
                   />
                   <h4>{student?.name}</h4>

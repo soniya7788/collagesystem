@@ -13,7 +13,7 @@ function PrintExamForm() {
     if (!student) return;
 
     axios
-      .get(`http://localhost:5000/api/exam/my-exam-forms/${student._id}`)
+      .get(`https://collagesystem-backend.onrender.com/api/exam/my-exam-forms/${student._id}`)
       .then(res => setExamForms(res.data))
       .catch(err => console.error(err));
   }, [student]);

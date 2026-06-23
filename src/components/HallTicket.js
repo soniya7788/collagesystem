@@ -28,7 +28,7 @@ function HallTicket() {
     if (!student || !id) return;
 
     axios
-      .get(`http://localhost:5000/api/exam/hall-ticket-by-form/${id}`)
+      .get(`https://collagesystem-backend.onrender.com/api/exam/hall-ticket-by-form/${id}`)
       .then(res => setTicket(res.data))
       .catch(() =>
         setError("Hall Ticket not available. Please wait for approval.")
@@ -105,7 +105,7 @@ const scheme = `${schemePrefix[exam.department]}-${exam.semester}.A`;
               <td rowSpan="4" style={{ textAlign: "center" }}>
                 <div className="photo-box">
                   <img
-                    src={`http://localhost:5000/uploads/${student.photo}`}
+                    src={`https://collagesystem-backend.onrender.com/uploads/${student.photo}`}
                     alt="Student"
                   />
                 </div>

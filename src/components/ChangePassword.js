@@ -21,7 +21,7 @@ function ChangePassword() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/change-password",
+        "https://collagesystem-backend.onrender.com/api/auth/change-password",
         { prn, oldPassword, newPassword }
       );
 
