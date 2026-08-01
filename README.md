@@ -2,10 +2,6 @@
 
 A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application developed to automate the examination process of autonomous institutes. The system provides role-based access for Students and Administrators, allowing seamless exam form submission, subject management, hall ticket generation, seating arrangement, and examination administration.
 
-🔗 **Live Demo:** https://collagesystem.vercel.app
-
-🔗 **Backend API:** https://collagesystem-backend.onrender.com
-
 ---
 
 ## 📌 Features
