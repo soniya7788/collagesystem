@@ -6,12 +6,16 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 ## ✨ Features
 
-| 👨‍🎓 Student | 👨‍💼 Admin | 🔐 Security |
-|--------------|-----------|-------------|
-| Registration | Dashboard | JWT Auth |
-| Login | Subject Management | Protected Routes |
-| Exam Form | Hall Tickets | Password Encryption |
-| Payments | Seating Chart | Email OTP |
+`🔐 Authentication`
+`📝 Exam Forms`
+`🎫 Hall Tickets`
+`🪑 Seating Chart`
+`📚 Subject Management`
+`📊 Dashboard`
+`💳 Payment Verification`
+`📧 Email OTP`
+`👨‍🎓 Student Portal`
+`👨‍💼 Admin Portal`
 
 ---
 
