@@ -64,9 +64,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 - Student Registration
 - Student Login
 - Admin Login
-
-<img width="1033" height="464" alt="image" src="https://github.com/user-attachments/assets/f4b742fc-9237-48be-ad48-308417935cec" />
-
 - Forgot Password
 - Reset Password
 - Student Dashboard
