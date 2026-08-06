@@ -64,7 +64,7 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 | Login | Student Registration |
 |-------|----------------------|
-| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc1.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc2.jpg" width="100%"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc1.jpg" width="50%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc2.jpg" width="50%"> |
 
 | Forgot Password |
 |-----------------|
