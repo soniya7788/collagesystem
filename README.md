@@ -22,7 +22,10 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 ## 🛠 Tech Stack
 
 ### Frontend 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  ![JavaScript (https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  ![HTML5 (https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ### Backend
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -43,33 +46,18 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 - Frontend: Vercel
 - Backend: Render
 - Database: MongoDB Atlas
-
 ---
-
 ## 📂 Project Structure
 
+| Folder | Purpose |
+|---------|---------|
+| 📁 Backend | APIs & Server |
+| 📁 src | React Components |
+| 📁 public | Static Files |
+| 📁 models | MongoDB Models |
+| 📁 routes | Express Routes |
+| 📁 uploads | Student Files |
 ```
-COLLAGESYSTEM
-│
-├── Backend
-│   ├── models
-│   ├── routes
-│   ├── uploads
-│   ├── utils
-│   ├── server.js
-│   └── package.json
-│
-├── public
-│
-├── src
-│   ├── components
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-└── README.md
-```
-
 ---
 
 ## 📸 Major Modules
