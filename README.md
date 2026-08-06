@@ -63,7 +63,7 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 | Login | Registration |
 |-------|--------------|
-| <img src="<img width="1033" height="464" alt="image" src="https://github.com/user-attachments/assets/5ebb82ee-edb7-4e4e-aa53-10334c8200cd" />
+| <img src="[<img width="1033" height="464" alt="image" src="https://github.com/user-attachments/assets/5ebb82ee-edb7-4e4e-aa53-10334c8200cd](https://github.com/soniya7788/Collage-system-Screenshot/blob/main/sc1.jpg?raw=true)" />
 "> |
 
 | Forgot Password |
