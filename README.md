@@ -58,6 +58,8 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 | 📁 uploads | Student Files |
 ```
 ---
+https://github.com/soniya7788/Collage-system-Screenshot/blob/main/sc1.jpg?raw=true
+
 ## 📸 Project Screenshots
 ### 📸 Authentication Module
 
