@@ -58,6 +58,18 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 | 📁 uploads | Student Files |
 ```
 ---
+## 📸 Project Screenshots
+### 📸 Authentication Module
+
+| Login | Registration |
+|-------|--------------|
+| <img src="<img width="1033" height="464" alt="image" src="https://github.com/user-attachments/assets/5ebb82ee-edb7-4e4e-aa53-10334c8200cd" />
+"> |
+
+| Forgot Password |
+|-----------------|
+| <img src="screenshots/forgot-password.png"> |
+
 
 ## 📸 Major Modules
 
