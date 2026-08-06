@@ -56,7 +56,7 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 | 📁 models | MongoDB Models |
 | 📁 routes | Express Routes |
 | 📁 uploads | Student Files |
-```
+
 ---
 ## 📸 Project Screenshots
 
