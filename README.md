@@ -64,11 +64,11 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 | Login | Student Registration |
 |-------|----------------------|
-| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc1.jpg" width="50%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc2.jpg" width="50%"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc1.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc2.jpg" width="100%"> |
 
 | Forgot Password |
 |-----------------|
-| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc3.jpg" width="70%"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc3.jpg" width="100%"> |
 
 ---
 
@@ -76,11 +76,11 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 | Exam Form | Subject Exemption |
 |-----------|-------------------|
-| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%205%20exam%20form.jpg" width="50%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%206%20subject%20excemption.jpg" width="100%"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%205%20exam%20form.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%206%20subject%20excemption.jpg" width="100%"> |
 
 | Hall Ticket | Subject Selection |
 |-------------|-------------------|
-| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%207%20hall%20ticket.jpg" width="50%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%2010%20subject%20selection.jpg" width="100%"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%207%20hall%20ticket.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%2010%20subject%20selection.jpg" width="100%"> |
 
 ---
 
