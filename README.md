@@ -58,20 +58,41 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 | 📁 uploads | Student Files |
 ```
 ---
-https://github.com/soniya7788/Collage-system-Screenshot/blob/main/sc1.jpg?raw=true
-
 ## 📸 Project Screenshots
-### 📸 Authentication Module
 
-| Login | Registration |
-|-------|--------------|
-| <img src="[<img width="1033" height="464" alt="image" src="https://github.com/user-attachments/assets/5ebb82ee-edb7-4e4e-aa53-10334c8200cd](https://github.com/soniya7788/Collage-system-Screenshot/blob/main/sc1.jpg?raw=true)" />
-"> |
+### 🔐 Authentication
+
+| Login | Student Registration |
+|-------|----------------------|
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc1.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc2.jpg" width="100%"> |
 
 | Forgot Password |
 |-----------------|
-| <img src="screenshots/forgot-password.png"> |
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc3.jpg" width="70%"> |
 
+---
+
+### 👨‍🎓 Student Module
+
+| Exam Form | Subject Exemption |
+|-----------|-------------------|
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%205%20exam%20form.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%206%20subject%20excemption.jpg" width="100%"> |
+
+| Hall Ticket | Subject Selection |
+|-------------|-------------------|
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%207%20hall%20ticket.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%2010%20subject%20selection.jpg" width="100%"> |
+
+---
+
+### 👨‍💼 Admin Module
+
+| Student Approval | Seating Chart |
+|------------------|---------------|
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%208%20student%20approve.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%209%20seating%20chart.jpg" width="100%"> |
+
+| Add / Update Subject | Approve Exam Form |
+|----------------------|-------------------|
+| <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%2012%20add%20update%20subject.jpg" width="100%"> | <img src="https://raw.githubusercontent.com/soniya7788/Collage-system-Screenshot/main/sc%2013%20approve%20exam%20form.jpg" width="100%"> |
 
 ## 📸 Major Modules
 
