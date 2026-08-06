@@ -4,38 +4,16 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application devel
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-### 👨‍🎓 Student Module
-- Student Registration
-- Student Login & Authentication
-- Forgot Password (Email OTP)
-- Reset Password
-- Change Password
-- Student Dashboard
-- Profile Management
-- Subject Selection
-- Exam Form Submission
-- Payment Verification
-- Hall Ticket Download
-
-### 👨‍💼 Admin Module
-- Admin Login
-- Dashboard with Statistics
-- Student Management
-- Subject Management
-- Add Subjects
-- Update Subjects
-- Search & Filter Subjects
-- Approve Exam Forms
-- Payment Verification
-- Hall Ticket Generation
-- Seating Chart Generation
-- Student Search & Filtering
+| 👨‍🎓 Student | 👨‍💼 Admin | 🔐 Security |
+|--------------|-----------|-------------|
+| Registration | Dashboard | JWT Auth |
+| Login | Subject Management | Protected Routes |
+| Exam Form | Hall Tickets | Password Encryption |
+| Payments | Seating Chart | Email OTP |
 
 ---
-
-## 🚀 Technologies Used
 
 ## 🛠 Tech Stack
 
